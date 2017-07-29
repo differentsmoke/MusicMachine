@@ -1,0 +1,43 @@
+.machine-main {
+    font-family: Helvetica, Liberation Sans, Roboto, Arial, sans-serif;
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    width: 70%;
+}
+
+.machine-title {
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.machine-knobs {
+    flex: 5;
+    margin:0;
+}
+
+.machine-buttons {
+    flex: 2 0 100%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-flow: row nowrap;
+    margin:0;
+    height: 200px;
+}
+
+/* --------- KEY ------------- */
+.machine-key {
+    margin: 5px;
+    cursor: pointer;
+    background-color: white;
+    flex: 1;
+}
+
+.machine-key:hover {
+    background-color: darkgoldenrod;
+}
