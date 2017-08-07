@@ -19,25 +19,33 @@
     margin:0;
 }
 
+.machine-knobs option, .machine-knobs input {
+}
+
 .machine-buttons {
     flex: 2 0 100%;
     border: 1px solid white;
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
     flex-flow: row nowrap;
     margin:0;
     height: 200px;
 }
 
 /* --------- KEY ------------- */
-.machine-key {
-    margin: 5px;
+.machine-tone, .machine-semi-tone {
+    margin: 1px;
     cursor: pointer;
     background-color: white;
     flex: 1;
 }
 
-.machine-key:hover {
-    background-color: darkgoldenrod;
+.machine-semi-tone {
+    height: 75%;
+    flex:0.55;
+    background-color: black;
+}
+
+.machine-tone:hover, .machine-semi-tone:hover {
+    background-color: #f78ca7
 }
